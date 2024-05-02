@@ -8,7 +8,7 @@ import Praise from "./praise";
   const Home = () => {
   return (
     <div className="flex flex-col items-center md:py-10  ">
-      <div className="bg-slate-50 px-10 rounded-md">
+      <div className="bg-slate-50 sm:px-10 max-sm:px-6 rounded-md">
         <div className="gap-4 py-10">
           <RxCross2 className="text-2xl" />
           <h1 className="text-2xl font-bold text-gray-900">Leave a review</h1>
@@ -17,6 +17,7 @@ import Praise from "./praise";
             <CommunicationReview />
             <RecommendationReview />
             <Praise/>
+            
           </div>
         </div>
       </div>

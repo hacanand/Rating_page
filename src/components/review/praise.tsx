@@ -20,7 +20,7 @@ const Praise = () => {
       <div className="flex flex-col gap-2">
         <h2 className="font-semibold text-xl">Praise</h2>
         <h3 className=" capitalize">Lorem ipsum dolor sit ame ?</h3>
-        <div className="flex sm:gap-4 gap-1">
+        <div className="flex sm:gap-4 gap-3">
           <span
             className={`border p-2 cursor-pointer rounded-full ${
               bgColor == 1 ? "bg-green-400" : "bg-gray-400"
@@ -52,7 +52,7 @@ const Praise = () => {
               localStorage.setItem("bgColor", JSON.stringify(3));
             }}
           >
-            Good Answer
+            Best
           </span>
         </div>
       </div>

@@ -5,7 +5,8 @@
 - This page is responsive
 - This page is tested on chrome, edge
 - This page is tested on mobile, tablet, desktop
- ### [Docs]( )
+ ### [Docs](https://github.com/hacanand/Rating_page/files/15189773/NEXT.JS.ASSIGNMENT.pdf)
+
 
 # How to run
 - Clone the repository
